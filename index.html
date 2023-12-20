@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC News</title>
+
+    <link rel="stylesheet" href="asset/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container  ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand " href="#">
+                    <span>B</span><span>B</span><span>C</span>
+                </a>
+
+                <a class="nav-link ms-3 signin " href="signin.html"><iconify-icon class="icon "
+                        icon="mdi:user"></iconify-icon>SignIn</a>
+
+                <div class="collapse navbar-collapse justify-content-around " id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="navClick('india')" id="home" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="navClick('ipl')" id="ipl" href="#">IPL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " onclick="navClick('finance')" id="finance" href="#">Finance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " onclick="navClick('politics')" id="politics" href="#">Politics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " onclick="navClick('sports')" id="sports" href="#">Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " onclick="navClick('economic')" id="economic" href="#">Economic</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " onclick="navClick('entertainment')" id="entertainment"
+                                href="#">Entertainment</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline d-flex  my-2 my-lg-0">
+                        <input id="searchBox" class="form-control mr-sm-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0"
+                            type="button">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="nav-section ">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="navClick('india')" id="home" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="navClick('rajasthan')" id="rajasthan" href="#">Rajasthan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " onclick="navClick('delhi')" id="delhi" href="#">Delhi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " onclick="navClick('punjab')" id="punjab" href="#">Punjab</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " onclick="navClick('gujrat')" id="gujrat" href="#">Gujrat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " onclick="navClick('goa')" id="goa" href="#">Goa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " onclick="navClick('maharastra')" id="maharastra"
+                                href="#">Maharastra</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="container py-4">
+            <div id="row" class="row g-4">
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <div id="newsTemplate" class="col-md-3">
+        <div class="card">
+            <img src="" class="card-img-top " alt="">
+            <div class="card-body p-2">
+                <h4 class="card-title "></h4>
+                <h6 class="card-subtitle py-2"></h6>
+                <p class="card-text "></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="asset/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="asset/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black">
+
+    <section>
+        <div class="container pt-5">
+            <div class="row g-5 ">
+                <div class="col-md-6">
+                    <div class="sign-in">
+                        <h1 class="main-heading text-center pt-4 ">
+                            <span>B</span>
+                            <span>B</span>
+                            <span>C</span>
+                        </h1>
+
+                        <h3 class="text-center text-light mt-4 mb-5">SignIn</h3>
+
+                        <form>
+                            <div  class="form-group ">
+                                <input type="email" class=" form-control text-light   bg-transparent " id="inputEmail"
+                                aria-describedby="emailHelp" placeholder="Email Or Username">
+                                <p id="email" class="error py-0 my-0 "></p>
+
+
+                            </div>
+                            <div " class="form-group ">
+                                <input type="password" class="form-control text-light  bg-transparent " id="inputPassword"
+                                    placeholder="Password">
+
+                                    <p id="password" class="error py-0 my-0 "></p>
+                            </div>
+
+                            <button type="button" onclick="inputValue ()" id="signIn" class="btn btn-primary w-100 mt-5">Sign In </button>
+                        </form>
+
+                        <h5 class="text-light text-center mt-3 ">Don't Have An BBC Account</h5>
+                        <a href="#" class="text-center d-block  fw-bolder ">Register Now</a>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="asset/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

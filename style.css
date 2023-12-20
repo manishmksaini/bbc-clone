@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error{
+    color: crimson ;
+}
+
+section .sign-in {
+    background: #ffffff20;
+    padding: 25px 10px;
+    border-radius: 10px;
+}
+
+section .sign-in .main-heading span {
+    background: #fff;
+    padding: 8px 15px;
+}
+section .sign-in form input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #fff;
+    margin-top: 15px ;
+    outline: none;
+}
+section .sign-in form input::placeholder{
+    color: #dadada;
+
+}
+section .sign-in form input:focus{
+box-shadow: none;
+}
+
+
+
+/*==============>>index----css<<============== */
+a{
+   color: #000 ; 
+}
+a span{
+    background: #000;
+    padding: 8px 15px;
+    color: #fff;
+    margin: 0 5px;
+    font-weight: 700;
+}
+
+.signin .icon {
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+.signin {
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 50px;
+    border-right: 1px solid #00000020;
+}
+ul{
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .selected{
+    border-bottom: 2px solid #68da68 ;
+    background-color: #dadada; 
+}
+
+section .selected{
+    /* color: ; */
+    border-bottom: 2px solid #68da68 !important;
+    /* */
+    /* background-color: #361b1b00;  */
+} 
+
+
+.nav-section{
+    background: #b80000;
+}
